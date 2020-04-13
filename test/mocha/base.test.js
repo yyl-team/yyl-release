@@ -15,6 +15,7 @@ describe('usage test', () => {
   beforeEach(async () => {
     if (fs.existsSync(PJ_PATH)) {
       await extOs.runCMD('git reset --hard', PJ_PATH)
+      await extOs.runCMD('git pull', PJ_PATH)
       await extOs.runCMD('git checkout test', PJ_PATH)
     } else {
       await extFs.removeFiles(GITCASE_PATH, true)

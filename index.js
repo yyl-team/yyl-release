@@ -21,7 +21,8 @@ module.exports.release = async ({ target }) => {
   const option = Object.assign(
     {
       tag: true,
-      publish: true
+      publish: true,
+      mergeToMaster: true
     },
     pkg.yyr
   )
@@ -65,7 +66,7 @@ module.exports.release = async ({ target }) => {
   }
 
   /** 合并到 master */
-  if (curBranch !== 'master') {
+  if (curBranch !== 'master' && option.mergeToMaster) {
     print.log.info(`${LANG.MERGE_TO_MASTER_START}: ${curBranch}`)
     const cmds = [
       'git checkout master',

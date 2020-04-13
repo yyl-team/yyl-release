@@ -14,7 +14,9 @@ yarn add yyl-release --dev
     /** 自动 npm publish */
     "publish": true,
     /** 自动打 tag */
-    "tag": true
+    "tag": true,
+    /** 自动合并到 master */
+    "mergeToMaster": true
   }
 }
 ```
