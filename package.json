@@ -39,6 +39,7 @@
     "prettier": "^2.0.4"
   },
   "dependencies": {
+    "chalk": "^4.0.0",
     "commander": "^5.0.0",
     "yyl-os": "^0.11.1",
     "yyl-print": "^0.7.5"
