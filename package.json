@@ -1,0 +1,45 @@
+{
+  "name": "yyl-release",
+  "version": "0.1.0",
+  "description": "release pkg helpper",
+  "main": "index.js",
+  "bin": {
+    "yyr": "bin/index.js"
+  },
+  "repository": "https://github.com/jackness1208/yyl-release.git",
+  "author": "liudaojie <liudaojie@yy.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "env": {
+      "mocha": true
+    },
+    "extends": [
+      "yyl-node"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "endOfLine": "lf",
+    "trailingComma": "none"
+  },
+  "scripts": {
+    "eslint": "eslint ./",
+    "prettier": "prettier --write ./**/*.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-yyl-node": "^0.1.2",
+    "mocha": "^7.1.1",
+    "prettier": "^2.0.4"
+  },
+  "dependencies": {
+    "commander": "^5.0.0",
+    "yyl-os": "^0.11.1"
+  }
+}
