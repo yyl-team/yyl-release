@@ -1600,6 +1600,13 @@ yyl-os@^0.11.1:
   dependencies:
     yyl-util "^2.3.5"
 
+yyl-print@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/yyl-print/-/yyl-print-0.7.5.tgz#f68de32a8e30e05df3cc662756b7a16ece7ebe13"
+  integrity sha512-qOKvifxhoIb1lyGdrxwQhO/ilONiSODW8zN7qLtBKtXv+ocyGrwxTR1pkPMg8glEZ/qDaMSXrH+fPRJLO6EZVQ==
+  dependencies:
+    chalk "^2.4.2"
+
 yyl-util@^2.3.5:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/yyl-util/-/yyl-util-2.3.8.tgz#5ef178f47ddc33c841add5356628c9c305836f2d"
