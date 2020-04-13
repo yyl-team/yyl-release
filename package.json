@@ -29,7 +29,9 @@
   },
   "scripts": {
     "eslint": "eslint ./",
-    "prettier": "prettier --write ./**/*.js"
+    "prettier": "prettier --write ./**/*.js",
+    "test": "mocha test/mocha/ --timeout 100000000000000",
+    "prepublishOnly": "npm test"
   },
   "devDependencies": {
     "chai": "^4.2.0",
