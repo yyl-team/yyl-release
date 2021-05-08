@@ -7,7 +7,7 @@
     "yyr": "bin/index.js"
   },
   "repository": "https://github.com/jackness1208/yyl-release.git",
-  "author": "liudaojie <liudaojie@yy.com>",
+  "author": "jackness1208",
   "license": "MIT",
   "eslintConfig": {
     "env": {
